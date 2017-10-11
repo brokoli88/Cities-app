@@ -1,0 +1,93 @@
+body {
+	font-family: Georgia, serif;
+}
+
+#first {
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+#area {
+	width: 50%;
+	float: left;
+}
+
+#time {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+#autocomplete {
+	width: 100%;
+    outline: 0;
+    border-width: 0 0 1px 0;
+    border-color: rgba(0, 0, 0, 0.54);
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#autocomplete:focus {
+    border-color: rgb(61, 81, 181);
+    border-width: 0 0 1px 0;
+}
+
+#second {
+	margin-right: 50px;
+	margin-top: 35px;
+	width: 30%;
+	float: right;
+}
+
+#addedCitiesList {
+	border:1px solid rgb(61, 81, 181);
+	border-radius: 3px;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	
+}
+
+.mainButton {
+	background-color: #003366;
+	color: white;
+    border-radius: 3px;
+    border: 0;
+    min-height: unset;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    float: right;
+}
+
+#messages {
+	float: bottom;
+}
+
+#chart {
+	display:block;
+	height: 50px;
+	width: 600px;
+	border: 2px solid rgb(61, 81, 181);
+	border-radius: 3px;    
+}
+
+button {
+	 background-color: #003366;
+	 color:  white;
+	 border-radius: 3px;
+	 border: 0;
+	 margin-left: 10px;
+	 text-align: center;
+	 min-height: unset;
+	 vertical-align: middle;   
+	 width: 18px;
+}
+
+li {
+	margin-left: 20px;
+}

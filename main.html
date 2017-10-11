@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gradovi</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body onload="load()">
+	    <div id="first">
+	    	<div id="area"></div>
+	    	<div id="time">Vreme: </div>
+	   		<input id="autocomplete" list="guessCity" type="text" name="city" placeholder="Pogodite grad" onkeypress="findCity()"/>
+	   			<datalist id="guessCity"></datalist>
+	   		<br/>
+	   		<input class="mainButton" name="submit" type="submit" value="submit" onclick="addCity()"></input>
+	   		<div id="messages"></div>
+	    </div>
+	    <div id="second">
+	    	<p>Lista ubacenih gradova:</p>
+	    	<ul id="addedCitiesList"></ul>
+	    	<button class="mainButton" name="finishGame" type="submit" onclick="finishGame()">Zavrsi igru</button>
+	    </div>
+	    <script type="text/javascript" src="podaci.json"></script>
+	    <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
